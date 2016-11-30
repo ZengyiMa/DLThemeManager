@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gYF-Nx-kgb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23D-Gp-8aV">
+                                <rect key="frame" x="0.0" y="555" width="375" height="30"/>
+                                <state key="normal" title="黑色主题换白色主题"/>
+                                <connections>
+                                    <action selector="change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="txW-Eg-93o"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NFu-U7-2w9">
+                                <rect key="frame" x="167" y="313.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Mng-st-d7b"/>
+                                    <constraint firstAttribute="height" constant="40" id="U1z-aj-J3K"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="黑色主题是白色，白色主题是黑色" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFF-AO-Jtu">
+                                <rect key="frame" x="0.0" y="119" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zD3-5s-39G">
+                                <rect key="frame" x="111" y="283" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="我在切换之后会变黄色"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hri-bX-eLo" kind="show" id="hbx-Gu-o1f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NFu-U7-2w9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DLM-tf-MZB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="23D-Gp-8aV" secondAttribute="bottom" constant="82" id="E7a-ZF-mkf"/>
+                            <constraint firstAttribute="trailing" secondItem="KFF-AO-Jtu" secondAttribute="trailing" id="Lou-wp-Pan"/>
+                            <constraint firstItem="NFu-U7-2w9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qkp-m6-3ts"/>
+                            <constraint firstItem="KFF-AO-Jtu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y13-EP-lKw"/>
+                            <constraint firstAttribute="trailing" secondItem="23D-Gp-8aV" secondAttribute="trailing" id="Y96-td-a3X"/>
+                            <constraint firstItem="23D-Gp-8aV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ytb-vW-Q0k"/>
+                            <constraint firstItem="KFF-AO-Jtu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="gxr-0s-xol"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="zD3-5s-39G"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="mVu-jR-KSA"/>
+                    <connections>
+                        <outlet property="button" destination="zD3-5s-39G" id="pGn-oi-uqD"/>
+                        <outlet property="imageView" destination="NFu-U7-2w9" id="Y8n-RO-nl8"/>
+                        <outlet property="label" destination="KFF-AO-Jtu" id="waA-a6-9qu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="I1K-hf-dZB">
+            <objects>
+                <viewController id="hri-bX-eLo" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tr5-sL-L2q"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eoy-Sy-cpp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hF1-6y-JYl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fm-yc-rD2">
+                                <rect key="frame" x="172" y="537" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="切换"/>
+                                <connections>
+                                    <action selector="change:" destination="hri-bX-eLo" eventType="touchUpInside" id="42n-Af-b7O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8UI-ZG-rkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1678" y="38"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dyX-85-jr9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gYF-Nx-kgb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ga7-kf-xuM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="CZW-gn-19p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AUU-vB-w4D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+</document>
