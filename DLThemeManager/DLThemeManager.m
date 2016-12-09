@@ -8,27 +8,11 @@
 
 #import "DLThemeManager.h"
 
-
-
-
-
-
-
-
-
-
-
-
-
 const NSString *DLThemeManagerThemeDidChanged = @"DLThemeManagerThemeDidChanged";
-
-
 @interface DLTheme ()
-
 @property (nonatomic, strong) NSBundle *bundle;
 @property (nonatomic, strong) NSDictionary *colorKeys;
 @property (nonatomic, strong) NSDictionary *imageKeys;
-
 @end
 @implementation DLTheme
 
@@ -159,10 +143,16 @@ const NSString *DLThemeManagerThemeDidChanged = @"DLThemeManagerThemeDidChanged"
 
 - (void)setTheme:(DLTheme *)theme
 {
-    _theme = theme;
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [[NSNotificationCenter defaultCenter]postNotificationName:(NSString *)DLThemeManagerThemeDidChanged object:nil];
-    });
+    if (_theme != nil) {
+        _theme = theme;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [[NSNotificationCenter defaultCenter]postNotificationName:(NSString *)DLThemeManagerThemeDidChanged object:nil];
+        });
+    }
+    else
+    {
+        _theme = theme;
+    }
 }
 
 - (UIColor *)colorForKey:(NSString *)key

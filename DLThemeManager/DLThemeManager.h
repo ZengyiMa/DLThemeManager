@@ -13,10 +13,7 @@ FOUNDATION_EXTERN NSString *DLThemeManagerThemeDidChanged;
 
 @class DLThemeAssociation;
 
-
-
 @interface DLTheme : NSObject
-
 - (instancetype)initWithBundleName:(NSString *)bundleName;
 - (instancetype)initWithBundlePath:(NSString *)bundlePath NS_DESIGNATED_INITIALIZER;
 
