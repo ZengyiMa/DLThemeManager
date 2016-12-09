@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85283CC81DFAAA3300E97572 /* Black.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85283CC61DFAAA3300E97572 /* Black.bundle */; };
+		85283CC91DFAAA3300E97572 /* Default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85283CC71DFAAA3300E97572 /* Default.bundle */; };
+		85283CDC1DFAAA8500E97572 /* NSObject+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283CCF1DFAAA8500E97572 /* NSObject+DLTheme.m */; };
+		85283CDD1DFAAA8500E97572 /* UIButton+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283CD11DFAAA8500E97572 /* UIButton+DLTheme.m */; };
+		85283CDE1DFAAA8500E97572 /* UIColor+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283CD31DFAAA8500E97572 /* UIColor+DLTheme.m */; };
+		85283CDF1DFAAA8500E97572 /* UIImageView+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283CD51DFAAA8500E97572 /* UIImageView+DLTheme.m */; };
+		85283CE01DFAAA8500E97572 /* UILabel+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283CD71DFAAA8500E97572 /* UILabel+DLTheme.m */; };
+		85283CE11DFAAA8500E97572 /* UITextField+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283CD91DFAAA8500E97572 /* UITextField+DLTheme.m */; };
+		85283CE21DFAAA8500E97572 /* UIView+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85283CDB1DFAAA8500E97572 /* UIView+DLTheme.m */; };
 		856047061DB8A7DE002017D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 856047051DB8A7DE002017D8 /* main.m */; };
 		856047091DB8A7DE002017D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 856047081DB8A7DE002017D8 /* AppDelegate.m */; };
 		8560470C1DB8A7DE002017D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560470B1DB8A7DE002017D8 /* ViewController.m */; };
@@ -15,17 +24,25 @@
 		856047141DB8A7DF002017D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856047121DB8A7DF002017D8 /* LaunchScreen.storyboard */; };
 		8560471C1DB8A833002017D8 /* DLThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8560471B1DB8A833002017D8 /* DLThemeManager.m */; };
 		856047291DB8AF7B002017D8 /* DLThemeAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 856047281DB8AF7B002017D8 /* DLThemeAssociation.m */; };
-		85C9C3131DED6BEA005F8C97 /* Default.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85C9C3121DED6BEA005F8C97 /* Default.bundle */; };
-		85C9C3171DED72CB005F8C97 /* Black.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 85C9C3161DED72CB005F8C97 /* Black.bundle */; };
-		85C9C31A1DED8C34005F8C97 /* UIImageView+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C9C3191DED8C34005F8C97 /* UIImageView+DLTheme.m */; };
-		85DEC0671DEC2CE200A204A3 /* NSObject+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEC05B1DEC2CE200A204A3 /* NSObject+DLTheme.m */; };
-		85DEC0681DEC2CE200A204A3 /* UIButton+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEC05D1DEC2CE200A204A3 /* UIButton+DLTheme.m */; };
-		85DEC0691DEC2CE200A204A3 /* UIColor+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEC05F1DEC2CE200A204A3 /* UIColor+DLTheme.m */; };
-		85DEC06B1DEC2CE200A204A3 /* UILabel+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEC0631DEC2CE200A204A3 /* UILabel+DLTheme.m */; };
-		85DEC06C1DEC2CE200A204A3 /* UIView+DLTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DEC0651DEC2CE200A204A3 /* UIView+DLTheme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85283CC61DFAAA3300E97572 /* Black.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Black.bundle; sourceTree = "<group>"; };
+		85283CC71DFAAA3300E97572 /* Default.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Default.bundle; sourceTree = "<group>"; };
+		85283CCE1DFAAA8500E97572 /* NSObject+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLTheme.h"; sourceTree = "<group>"; };
+		85283CCF1DFAAA8500E97572 /* NSObject+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLTheme.m"; sourceTree = "<group>"; };
+		85283CD01DFAAA8500E97572 /* UIButton+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DLTheme.h"; sourceTree = "<group>"; };
+		85283CD11DFAAA8500E97572 /* UIButton+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DLTheme.m"; sourceTree = "<group>"; };
+		85283CD21DFAAA8500E97572 /* UIColor+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DLTheme.h"; sourceTree = "<group>"; };
+		85283CD31DFAAA8500E97572 /* UIColor+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DLTheme.m"; sourceTree = "<group>"; };
+		85283CD41DFAAA8500E97572 /* UIImageView+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DLTheme.h"; sourceTree = "<group>"; };
+		85283CD51DFAAA8500E97572 /* UIImageView+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DLTheme.m"; sourceTree = "<group>"; };
+		85283CD61DFAAA8500E97572 /* UILabel+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DLTheme.h"; sourceTree = "<group>"; };
+		85283CD71DFAAA8500E97572 /* UILabel+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DLTheme.m"; sourceTree = "<group>"; };
+		85283CD81DFAAA8500E97572 /* UITextField+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DLTheme.h"; sourceTree = "<group>"; };
+		85283CD91DFAAA8500E97572 /* UITextField+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DLTheme.m"; sourceTree = "<group>"; };
+		85283CDA1DFAAA8500E97572 /* UIView+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DLTheme.h"; sourceTree = "<group>"; };
+		85283CDB1DFAAA8500E97572 /* UIView+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DLTheme.m"; sourceTree = "<group>"; };
 		856047011DB8A7DE002017D8 /* DLThemeManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLThemeManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		856047051DB8A7DE002017D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		856047071DB8A7DE002017D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,20 +57,6 @@
 		8560471B1DB8A833002017D8 /* DLThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLThemeManager.m; sourceTree = "<group>"; };
 		856047271DB8AF7B002017D8 /* DLThemeAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLThemeAssociation.h; sourceTree = "<group>"; };
 		856047281DB8AF7B002017D8 /* DLThemeAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLThemeAssociation.m; sourceTree = "<group>"; };
-		85C9C3121DED6BEA005F8C97 /* Default.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Default.bundle; sourceTree = "<group>"; };
-		85C9C3161DED72CB005F8C97 /* Black.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Black.bundle; sourceTree = "<group>"; };
-		85C9C3181DED8C34005F8C97 /* UIImageView+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DLTheme.h"; sourceTree = "<group>"; };
-		85C9C3191DED8C34005F8C97 /* UIImageView+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DLTheme.m"; sourceTree = "<group>"; };
-		85DEC05A1DEC2CE200A204A3 /* NSObject+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLTheme.h"; sourceTree = "<group>"; };
-		85DEC05B1DEC2CE200A204A3 /* NSObject+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLTheme.m"; sourceTree = "<group>"; };
-		85DEC05C1DEC2CE200A204A3 /* UIButton+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DLTheme.h"; sourceTree = "<group>"; };
-		85DEC05D1DEC2CE200A204A3 /* UIButton+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DLTheme.m"; sourceTree = "<group>"; };
-		85DEC05E1DEC2CE200A204A3 /* UIColor+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DLTheme.h"; sourceTree = "<group>"; };
-		85DEC05F1DEC2CE200A204A3 /* UIColor+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DLTheme.m"; sourceTree = "<group>"; };
-		85DEC0621DEC2CE200A204A3 /* UILabel+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DLTheme.h"; sourceTree = "<group>"; };
-		85DEC0631DEC2CE200A204A3 /* UILabel+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DLTheme.m"; sourceTree = "<group>"; };
-		85DEC0641DEC2CE200A204A3 /* UIView+DLTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DLTheme.h"; sourceTree = "<group>"; };
-		85DEC0651DEC2CE200A204A3 /* UIView+DLTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DLTheme.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85283CCD1DFAAA8500E97572 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				85283CCE1DFAAA8500E97572 /* NSObject+DLTheme.h */,
+				85283CCF1DFAAA8500E97572 /* NSObject+DLTheme.m */,
+				85283CD01DFAAA8500E97572 /* UIButton+DLTheme.h */,
+				85283CD11DFAAA8500E97572 /* UIButton+DLTheme.m */,
+				85283CD21DFAAA8500E97572 /* UIColor+DLTheme.h */,
+				85283CD31DFAAA8500E97572 /* UIColor+DLTheme.m */,
+				85283CD41DFAAA8500E97572 /* UIImageView+DLTheme.h */,
+				85283CD51DFAAA8500E97572 /* UIImageView+DLTheme.m */,
+				85283CD61DFAAA8500E97572 /* UILabel+DLTheme.h */,
+				85283CD71DFAAA8500E97572 /* UILabel+DLTheme.m */,
+				85283CD81DFAAA8500E97572 /* UITextField+DLTheme.h */,
+				85283CD91DFAAA8500E97572 /* UITextField+DLTheme.m */,
+				85283CDA1DFAAA8500E97572 /* UIView+DLTheme.h */,
+				85283CDB1DFAAA8500E97572 /* UIView+DLTheme.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		856046F51DB8A79F002017D8 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +103,7 @@
 		856046FC1DB8A7A6002017D8 /* DLThemeManager */ = {
 			isa = PBXGroup;
 			children = (
-				85C9C3101DED6B86005F8C97 /* Themes */,
-				856047201DB8AB5D002017D8 /* Categories */,
+				85283CCD1DFAAA8500E97572 /* Categories */,
 				8560471A1DB8A833002017D8 /* DLThemeManager.h */,
 				8560471B1DB8A833002017D8 /* DLThemeManager.m */,
 				856047271DB8AF7B002017D8 /* DLThemeAssociation.h */,
@@ -100,6 +123,8 @@
 		856047031DB8A7DE002017D8 /* DLThemeManagerExample */ = {
 			isa = PBXGroup;
 			children = (
+				85283CC61DFAAA3300E97572 /* Black.bundle */,
+				85283CC71DFAAA3300E97572 /* Default.bundle */,
 				856047071DB8A7DE002017D8 /* AppDelegate.h */,
 				856047081DB8A7DE002017D8 /* AppDelegate.m */,
 				8560470A1DB8A7DE002017D8 /* ViewController.h */,
@@ -120,44 +145,6 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
-		};
-		856047201DB8AB5D002017D8 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				85DEC0581DEC2CE200A204A3 /* Categories */,
-			);
-			name = Categories;
-			path = core/Categories;
-			sourceTree = "<group>";
-		};
-		85C9C3101DED6B86005F8C97 /* Themes */ = {
-			isa = PBXGroup;
-			children = (
-				85C9C3161DED72CB005F8C97 /* Black.bundle */,
-				85C9C3121DED6BEA005F8C97 /* Default.bundle */,
-			);
-			path = Themes;
-			sourceTree = "<group>";
-		};
-		85DEC0581DEC2CE200A204A3 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				85DEC05A1DEC2CE200A204A3 /* NSObject+DLTheme.h */,
-				85DEC05B1DEC2CE200A204A3 /* NSObject+DLTheme.m */,
-				85DEC05C1DEC2CE200A204A3 /* UIButton+DLTheme.h */,
-				85DEC05D1DEC2CE200A204A3 /* UIButton+DLTheme.m */,
-				85DEC05E1DEC2CE200A204A3 /* UIColor+DLTheme.h */,
-				85DEC05F1DEC2CE200A204A3 /* UIColor+DLTheme.m */,
-				85DEC0621DEC2CE200A204A3 /* UILabel+DLTheme.h */,
-				85DEC0631DEC2CE200A204A3 /* UILabel+DLTheme.m */,
-				85DEC0641DEC2CE200A204A3 /* UIView+DLTheme.h */,
-				85DEC0651DEC2CE200A204A3 /* UIView+DLTheme.m */,
-				85C9C3181DED8C34005F8C97 /* UIImageView+DLTheme.h */,
-				85C9C3191DED8C34005F8C97 /* UIImageView+DLTheme.m */,
-			);
-			name = Categories;
-			path = DLThemeManager/Categories;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -217,9 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				856047141DB8A7DF002017D8 /* LaunchScreen.storyboard in Resources */,
+				85283CC81DFAAA3300E97572 /* Black.bundle in Resources */,
+				85283CC91DFAAA3300E97572 /* Default.bundle in Resources */,
 				856047111DB8A7DF002017D8 /* Assets.xcassets in Resources */,
-				85C9C3131DED6BEA005F8C97 /* Default.bundle in Resources */,
-				85C9C3171DED72CB005F8C97 /* Black.bundle in Resources */,
 				8560470F1DB8A7DF002017D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,17 +218,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DEC0681DEC2CE200A204A3 /* UIButton+DLTheme.m in Sources */,
+				85283CDD1DFAAA8500E97572 /* UIButton+DLTheme.m in Sources */,
 				8560470C1DB8A7DE002017D8 /* ViewController.m in Sources */,
-				85C9C31A1DED8C34005F8C97 /* UIImageView+DLTheme.m in Sources */,
-				85DEC0671DEC2CE200A204A3 /* NSObject+DLTheme.m in Sources */,
-				85DEC06B1DEC2CE200A204A3 /* UILabel+DLTheme.m in Sources */,
+				85283CE21DFAAA8500E97572 /* UIView+DLTheme.m in Sources */,
+				85283CDF1DFAAA8500E97572 /* UIImageView+DLTheme.m in Sources */,
+				85283CDC1DFAAA8500E97572 /* NSObject+DLTheme.m in Sources */,
+				85283CE01DFAAA8500E97572 /* UILabel+DLTheme.m in Sources */,
 				8560471C1DB8A833002017D8 /* DLThemeManager.m in Sources */,
-				85DEC06C1DEC2CE200A204A3 /* UIView+DLTheme.m in Sources */,
 				856047091DB8A7DE002017D8 /* AppDelegate.m in Sources */,
 				856047061DB8A7DE002017D8 /* main.m in Sources */,
 				856047291DB8AF7B002017D8 /* DLThemeAssociation.m in Sources */,
-				85DEC0691DEC2CE200A204A3 /* UIColor+DLTheme.m in Sources */,
+				85283CDE1DFAAA8500E97572 /* UIColor+DLTheme.m in Sources */,
+				85283CE11DFAAA8500E97572 /* UITextField+DLTheme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
